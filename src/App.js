@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import SessionTest1 from "./components/SessionTest1";
 function App() {
   return (
     <div className='App'>
@@ -14,8 +14,9 @@ function App() {
           href='https://reactjs.org'
           target='_blank'
           rel='noopener noreferrer'>
-          Learn main
+          Learn Session 1
         </a>
+        <SessionTest1 />
       </header>
     </div>
   );
